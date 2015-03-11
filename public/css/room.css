@@ -1,0 +1,58 @@
+/*
+ * darker orange #EF1511
+ * lighter orange #EF4F1D
+ */
+body{
+    padding:0px;
+    margin:0px;
+   /*2A2C2B*/ 
+    background:url(/img/background.png);
+}
+
+#myCanvas{
+    z-index:2;
+    border:2px solid #EF4F1D;
+    position:absolute;
+    top:50px;
+    left:15%;
+    display:block;
+}
+
+#myScore{
+    border:2px solid #EF4F1D;
+    position:absolute;
+    top:10px;
+    left:1%;
+    display:block;
+}
+#myInfo{
+    border:2px solid #EF4F1D;
+    position:absolute;
+    top:100px;
+    left:1%;
+    display:block;
+}
+
+#myStamina{
+    border:2px solid #EF4F1D;
+    position:absolute;
+    bottom:50px;
+    left:70%;
+    display:block;
+}
+
+#stats {
+    margin:10px;
+    color:#ccc;
+    text-align:center;
+    width:200px;
+    float:right;
+    word-wrap:break-word;
+    border:2px solid #EF4F1D;
+    padding:20px;
+}
+
+#newGame{
+    position:absolute;
+    left:8%;
+}
